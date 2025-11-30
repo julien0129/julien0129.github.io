@@ -73,7 +73,7 @@
         
         <div class="site-meta">
             <h1 class="site-name"><a href="/">Julien</a></h1>
-            <h2 class="site-description">一个矛盾的伪装者</h2>
+            <h2 class="site-description">a regular homosexual who occasionally feels frisky.</h2>
         </div>
     </header><ol class="menu" id="main-menu">
         
@@ -597,6 +597,241 @@
 
 
 
+
+
+<style>
+   
+  @font-face {
+    font-family: '寒蝉正楷';
+    src: url(https://julien0129.github.io/font/ChillKai.ttf) format('truetype');
+  }
+
+   
+  :root {
+    --base-font-family: '寒蝉正楷', SimSun, serif;
+    --code-font-family: '寒蝉正楷', Consolas, monospace;
+  }
+
+   
+  body .container.main-container {
+    font-size: 23px;
+    font-family: var(--base-font-family);
+  }
+
+   
+  .site-name {
+    font-size: 22px;
+  }
+  .site-description {
+    font-size: 17px;
+  }
+
+   
+  #main-menu li a span {
+    font-size: 19px;
+  }
+
+   
+  .widget-title.section-title {
+    font-size: 22px;
+  }
+  #TableOfContents li a {
+    font-size: 21px;
+  }
+
+   
+   
+  article.has-image.main-article h2.article-title {
+    font-size: 35px !important;  
+  }
+  
+  .article-subtitle {
+    font-size: 25px;
+  }
+  
+   
+  .article-time time {
+    font-size: 20px;
+  }
+
+   
+  .article-content {
+    font-size: 22px;
+  }
+  .article-content h2 {  
+    font-size: 25px;
+  }
+  .article-content p,
+  .article-content blockquote,
+  .article-content ul,
+  .article-content ol {
+    font-size: inherit;
+  }
+
+   
+  .article-content .highlight,
+  .article-content .highlight .chroma,
+  .article-content .highlight .chroma code {
+    font-size: 18px;
+    font-family: var(--code-font-family);
+  }
+
+
+   
+  @media (max-width: 768px) {
+     
+    body .container.main-container {
+      font-size: 18px;
+    }
+
+     
+    .site-name {
+      font-size: 20px;
+    }
+    .site-description {
+      font-size: 15px;
+    }
+
+     
+    #main-menu li a span {
+      font-size: 17px;
+    }
+
+     
+    .widget-title.section-title {
+      font-size: 20px;
+    }
+    #TableOfContents li a {
+      font-size: 19px;
+    }
+
+     
+    article.has-image.main-article h2.article-title {
+      font-size: 28px !important;
+    }
+    .article-subtitle {
+      font-size: 22px;
+    }
+    .article-time time {
+      font-size: 18px;
+    }
+    .article-content {
+      font-size: 19px;
+    }
+    .article-content h2 {
+      font-size: 23px;
+    }
+
+     
+    .article-content .highlight,
+    .article-content .highlight .chroma {
+      font-size: 13px;
+    }
+  }
+</style>
+
+<style>
+    #TableOfContents > ul, ol {
+        ul, ol {
+            display: none;
+        }
+        .open {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+  function initTocHide() {
+    let toc = document.querySelector(".widget--toc");
+    if (!toc) return;
+
+    window.addEventListener('scroll', function() {
+      let openUl = document.querySelectorAll(".open");
+      openUl.forEach(ul => ul.classList.remove("open"));
+
+      let currentLi = document.querySelector(".active-class");
+      if (!currentLi) return;
+
+      if (currentLi.children.length > 1) {
+        currentLi.children[1].classList.add("open");
+      }
+
+      let ul = currentLi.parentElement;
+      do {
+        ul.classList.add("open");
+        ul = ul.parentElement.parentElement;
+      } while (ul && (ul.localName === 'ul' || ul.localName === 'ol'));
+    });
+  }
+  initTocHide();
+</script>
+
+
+<style>
+  #backTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://julien0129.github.io/icons/backTop.svg);
+     
+    background-position: center;
+    background-size: contain;
+  }
+</style>
+
+<script>
+  function initScrollTop() {
+    
+    let rightSideBar = document.querySelector(".right-sidebar") || document.body;
+    let btn = document.createElement("div");
+    btn.id = "backTopBtn";
+    btn.onclick = backToTop;
+    rightSideBar.appendChild(btn);
+
+    window.onscroll = function() {
+      
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      btn.style.display = scrollTop > 20 ? "block" : "none";
+    };
+  }
+
+  function backToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  initScrollTop();
+</script>
+
+<style>
+  body {
+    background: url(/background/boysinlove.png) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+
+<div id="particles-js"></div>
+
+<script src=https://julien0129.github.io/background/particles.min.js></script>
+<script>
+  particlesJS.load('particles-js', "https://julien0129.github.io/background/particlesjs-config.json", function() {
+    console.log('particles.js loaded - callback');
+  });
+</script>
+
+<style>
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+</style>
 
     </body>
 </html>
