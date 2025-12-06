@@ -382,18 +382,42 @@
     }());
 </script>
 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<div id="aplayer"></div>
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
-<meting-js
-	server="netease"
-	type="playlist"
-	id="17487841946"
-	fixed="true"
-	mini="true">
-</meting-js>
+<script>
+	
+	const musicDir = "https://julien0129.github.io/" + 'music/';
+	const songs = [
+		'Private Roots-speedometer',
+		'All You Wanted-Michelle Branch',
+		'没有人会像我一样-龙宽九段',
+		'Me vs. Us-Tayla Parx',
+		'摩擦-艾敬',
+		'warm-Ariana Grande',
+		'Where Did U Go-G.E.M.邓紫棋',
+		'咖啡和眼泪-何静'
+	];
+	let audios = [];
+	songs.forEach((item) => {
+		const songInfo = item.split('-');
+		audios.push({
+			name: songInfo[0],
+			artist: songInfo[1],
+			url: musicDir + item + '/song.mp3',
+			cover: musicDir + item + '/cover.jpg',
+			lrc: musicDir + item +'/lyric.lrc'
+		});
+	})
+	const ap = new APlayer({
+	    container: document.getElementById('aplayer'),
+		fixed: true,
+		lrcType: 3,
+	    audio: audios
+	});
+</script>
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 
 
