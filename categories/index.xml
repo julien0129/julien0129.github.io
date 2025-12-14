@@ -7,45 +7,29 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Julien</copyright>
-        <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://julien0129.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Test</title>
-        <link>https://julien0129.github.io/categories/test/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://julien0129.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>随笔</title>
+        <link>https://julien0129.github.io/categories/%E9%9A%8F%E7%AC%94/</link>
+        <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://julien0129.github.io/categories/test/</guid>
-        <description>&lt;img src="https://julien0129.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
+        <guid>https://julien0129.github.io/categories/%E9%9A%8F%E7%AC%94/</guid>
+        <description>&lt;img src="https://julien0129.github.io/categories/%E9%9A%8F%E7%AC%94/icon.jpg" alt="Featured image of post 随笔" /&gt;</description>
         </item>
         <item>
-        <title>测试</title>
-        <link>https://julien0129.github.io/categories/%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+        <title>音乐</title>
+        <link>https://julien0129.github.io/categories/%E9%9F%B3%E4%B9%90/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://julien0129.github.io/categories/%E6%B5%8B%E8%AF%95/</guid>
-        <description></description>
+        <guid>https://julien0129.github.io/categories/%E9%9F%B3%E4%B9%90/</guid>
+        <description>&lt;img src="https://julien0129.github.io/categories/%E9%9F%B3%E4%B9%90/icon.jpg" alt="Featured image of post 音乐" /&gt;</description>
         </item>
         <item>
-        <title>Syntax</title>
-        <link>https://julien0129.github.io/categories/syntax/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>游戏</title>
+        <link>https://julien0129.github.io/categories/%E6%B8%B8%E6%88%8F/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://julien0129.github.io/categories/syntax/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://julien0129.github.io/categories/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://julien0129.github.io/categories/themes/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Test With Whitespaces</title>
-        <link>https://julien0129.github.io/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://julien0129.github.io/categories/test-with-whitespaces/</guid>
-        <description></description>
+        <guid>https://julien0129.github.io/categories/%E6%B8%B8%E6%88%8F/</guid>
+        <description>&lt;img src="https://julien0129.github.io/categories/%E6%B8%B8%E6%88%8F/icon.jpg" alt="Featured image of post 游戏" /&gt;</description>
         </item>
         
     </channel>

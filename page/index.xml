@@ -7,7 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Julien</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://julien0129.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 07 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://julien0129.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>书馆</title>
+        <link>https://julien0129.github.io/library/</link>
+        <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://julien0129.github.io/library/</guid>
+        <description>&lt;p&gt;julien的图书妙妙屋&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>归档</title>
         <link>https://julien0129.github.io/%E5%BD%92%E6%A1%A3/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -21,7 +30,48 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://julien0129.github.io/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+        <description>&lt;img src="https://julien0129.github.io/%E5%85%B3%E4%BA%8E/aboutme.jpg" alt="Featured image of post 关于" /&gt;&lt;!-- intro --&gt;
+&lt;h2 id=&#34;关于我&#34;&gt;🦸‍♂️关于我
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name：我习惯在网络上称呼自己为Julien，这个名字来源于动画电影《马达加斯加》系列里一只搞笑的狐猴国王，我非常喜欢这个角色。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;identity：Homosexual这个单词就足够了，我不喜欢给自己贴标签。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;location：中国，四川。 我热爱这里。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;兴趣：&lt;/p&gt;
+&lt;p&gt;🎮 PC游戏&lt;/p&gt;
+&lt;p&gt;我从小到大玩过许多游戏，从中国00后男生大多玩过的《穿越火线》到现在的各种3A大作，还有各种手游，&lt;del&gt;亦或者某些NSWF的游戏。&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;· Game of the Lifetime：《魔兽世界》，My GOAT。&lt;/p&gt;
+&lt;p&gt;🏀 运动&lt;/p&gt;
+&lt;p&gt;我最近在练习篮球。&lt;/p&gt;
+&lt;p&gt;📚️ 阅读各种双男主小说&lt;/p&gt;
+&lt;p&gt;荣获BL频道全国百佳男性阅读者称号，品鉴过各种各样的帅哥们的爱恨情仇，常常在被窝里与之情感共鸣，真是让人记忆深刻的体验。&lt;/p&gt;
+&lt;p&gt;🍳 烹饪与干饭&lt;/p&gt;
+&lt;p&gt;坚信会做饭才能吊住喜欢的男生，为此努力中；同时是本地美食鉴赏师。&lt;/p&gt;
+&lt;p&gt;🧳 旅行&lt;/p&gt;
+&lt;p&gt;我每天都在想要去看各地的美景，我认为旅行不仅是兴趣，更是一种精神上的疗愈。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关于本博客&#34;&gt;💻关于本博客
+&lt;/h2&gt;&lt;h3 id=&#34;为什么要搭建这个博客&#34;&gt;为什么要搭建这个博客？
+&lt;/h3&gt;&lt;p&gt;​	我一直以来都希望能够拥有一个记录自己所见所闻的个人空间，记录我的成长，我的经历，我的感受。&lt;/p&gt;
+&lt;p&gt;​	因此，不同于大多数学习编程或者和计算机有关的博主的博客里的各种代码和学习笔记，本博客其实可以更可以理解为我的个人日记空间。&lt;/p&gt;
+&lt;h3 id=&#34;如何搭建本博客&#34;&gt;如何搭建本博客？
+&lt;/h3&gt;&lt;p&gt;​	博客采用Hugo里的Stack主题搭建。相关搭建过程是跟着网络上的各种资源和教程分享做的。&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h2 id=&#34;博客板块&#34;&gt;🌐博客板块
+&lt;/h2&gt;&lt;p&gt;​	除去主要的日记之外，本博客增设了“图书馆”板块以及“目标”板块。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;图书馆：主要分享我看过的认为好看的双男主网文，或许一些无感情线男频文也会分享。&lt;/li&gt;
+&lt;li&gt;其他模块尚在构思中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最后&#34;&gt;🌄最后
+&lt;/h2&gt;&lt;p&gt;​	TO BE CONTINUED&amp;hellip;&lt;/p&gt;
 </description>
         </item>
         <item>
