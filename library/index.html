@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://julien0129.github.io/library/'>
 
-<link rel="stylesheet" href="/scss/style.min.5474c5553649956c37f2b3d29a8b5925a7379e803e8cbe7ac2774fcb68ab15bc.css"><meta property='og:title' content="书馆">
+<link rel="stylesheet" href="/scss/style.min.ec550b2269939cf59a59d6b6d241f20dfef58c6be099e24081eda314cad3b852.css"><meta property='og:title' content="书馆">
 <meta property='og:description' content="我的读书清单">
 <meta property='og:url' content='https://julien0129.github.io/library/'>
 <meta property='og:site_name' content='Julien'>
@@ -511,12 +511,13 @@
 	})	
 	
 	document.addEventListener('pjax:complete',() => {
-		window.stack.init();
+		if (window.Stack && typeof window.Stack.init === 'function') {
+			window.Stack.init();
+		}
 		topbar.hide();
 	})
 	
 </script>
-
 
 
 
@@ -730,7 +731,7 @@
 
 <style>
   body {
-    background: url(/background/boysinlove.png) no-repeat center top;
+    background: url(/background/diary-background-20260608.jpeg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -738,9 +739,9 @@
 
 <div id="particles-js"></div>
 
-<script src=https://julien0129.github.io/background/particles.min.js></script>
+<script src="/background/particles.min.js"></script>
 <script>
-  particlesJS.load('particles-js', "https://julien0129.github.io/background/particlesjs-config.json", function() {
+  particlesJS.load('particles-js', "\/background\/particlesjs-config.json?v=20260609-circle-grab", function() {
     console.log('particles.js loaded - callback');
   });
 </script>

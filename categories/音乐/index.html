@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://julien0129.github.io/categories/%E9%9F%B3%E4%B9%90/'>
 
-<link rel="stylesheet" href="/scss/style.min.5474c5553649956c37f2b3d29a8b5925a7379e803e8cbe7ac2774fcb68ab15bc.css"><meta property='og:title' content="Category: 音乐 - Julien">
+<link rel="stylesheet" href="/scss/style.min.ec550b2269939cf59a59d6b6d241f20dfef58c6be099e24081eda314cad3b852.css"><meta property='og:title' content="Category: 音乐 - Julien">
 <meta property='og:description' content="我的音乐品味">
 <meta property='og:url' content='https://julien0129.github.io/categories/%E9%9F%B3%E4%B9%90/'>
 <meta property='og:site_name' content='Julien'>
@@ -334,7 +334,7 @@
                 
             </div>
                 <div class="section-image">
-                    <img src="/categories/%E9%9F%B3%E4%B9%90/icon_hu_c7fcfe55c531a8d1.jpg" 
+                    <img src="/categories/%E9%9F%B3%E4%B9%90/icon_hu_228c6fc6a651260c.jpg" 
                             width="120"
                             height="120" 
                             loading="lazy">
@@ -350,16 +350,18 @@
     </section>
 <footer class="site-footer">
     <section class="copyright">
-        &copy; 
+        &copy;
         
-            2025 - 
+            2025 -
         
         2026 Julien
     </section>
-    
+
     <section class="powerby">
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.32.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        
+
+        我一生向你问过一次路 <br />
+        Only once in my life did I ask you for the way.
     </section>
 </footer>
 
@@ -461,12 +463,13 @@
 	})	
 	
 	document.addEventListener('pjax:complete',() => {
-		window.stack.init();
+		if (window.Stack && typeof window.Stack.init === 'function') {
+			window.Stack.init();
+		}
 		topbar.hide();
 	})
 	
 </script>
-
 
 
 
@@ -680,7 +683,7 @@
 
 <style>
   body {
-    background: url(/background/boysinlove.png) no-repeat center top;
+    background: url(/background/diary-background-20260608.jpeg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -688,9 +691,9 @@
 
 <div id="particles-js"></div>
 
-<script src=https://julien0129.github.io/background/particles.min.js></script>
+<script src="/background/particles.min.js"></script>
 <script>
-  particlesJS.load('particles-js', "https://julien0129.github.io/background/particlesjs-config.json", function() {
+  particlesJS.load('particles-js', "\/background\/particlesjs-config.json?v=20260609-circle-grab", function() {
     console.log('particles.js loaded - callback');
   });
 </script>

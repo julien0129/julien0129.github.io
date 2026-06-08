@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://julien0129.github.io/%E5%BD%92%E6%A1%A3/'>
 
-<link rel="stylesheet" href="/scss/style.min.5474c5553649956c37f2b3d29a8b5925a7379e803e8cbe7ac2774fcb68ab15bc.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.ec550b2269939cf59a59d6b6d241f20dfef58c6be099e24081eda314cad3b852.css"><meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://julien0129.github.io/%E5%BD%92%E6%A1%A3/'>
 <meta property='og:site_name' content='Julien'>
@@ -236,7 +236,7 @@
         
         
             <div class="article-image">
-                <img src="/categories/%E9%9A%8F%E7%AC%94/icon.2bd621161e60a6f0d65d2954cd484190_hu_a861d5339ac2edf8.jpg" 
+                <img src="/categories/%E9%9A%8F%E7%AC%94/icon.2bd621161e60a6f0d65d2954cd484190_hu_ef17068706a89d5e.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -260,7 +260,7 @@
         
         
             <div class="article-image">
-                <img src="/categories/%E9%9F%B3%E4%B9%90/icon.19a476e01ec05ac7a90f6b7fa85f0d12_hu_901da5d67baa6386.jpg" 
+                <img src="/categories/%E9%9F%B3%E4%B9%90/icon.19a476e01ec05ac7a90f6b7fa85f0d12_hu_1a91e2af85b47b13.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -284,7 +284,7 @@
         
         
             <div class="article-image">
-                <img src="/categories/%E6%B8%B8%E6%88%8F/icon.04e1d3a90c5cafc422a5988d6153c613_hu_803fc81d97a4cb77.jpg" 
+                <img src="/categories/%E6%B8%B8%E6%88%8F/icon.04e1d3a90c5cafc422a5988d6153c613_hu_37f1346601c4d2c5.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
@@ -331,7 +331,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/%E6%96%B0%E6%98%A5%E5%A4%A7%E5%90%89/chinesenewyear2026_hu_f27df74aaae794f2.jpg" 
+                <img src="/p/%E6%96%B0%E6%98%A5%E5%A4%A7%E5%90%89/chinesenewyear2026_hu_9f4847d0fd2f702f.jpg" 
                         width="120"
                         height="120" 
                         alt="新春大吉"
@@ -356,7 +356,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/age-25/default_hu_bf2aa9249b290ffa.jpg" 
+                <img src="/p/age-25/default_hu_6a96fc0f6e6415cf.jpg" 
                         width="120"
                         height="120" 
                         alt="Age 25"
@@ -381,7 +381,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/%E6%96%B0%E5%B9%B4/2026_hu_a3f3f60d4bd3dc62.jpg" 
+                <img src="/p/%E6%96%B0%E5%B9%B4/2026_hu_fec87fc5bb056774.jpg" 
                         width="120"
                         height="120" 
                         alt="2026年"
@@ -414,7 +414,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/%E5%B9%B3%E5%AE%89%E5%A4%9C/christmaseve_hu_94af2218eb2ff5c9.jpg" 
+                <img src="/p/%E5%B9%B3%E5%AE%89%E5%A4%9C/christmaseve_hu_9a75d048e7cc0d5f.jpg" 
                         width="120"
                         height="120" 
                         alt="平安夜"
@@ -439,7 +439,7 @@
             </footer>
         </div>
             <div class="article-image">
-                <img src="/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/default_hu_bf2aa9249b290ffa.jpg" 
+                <img src="/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/default_hu_6a96fc0f6e6415cf.jpg" 
                         width="120"
                         height="120" 
                         alt="我的第一篇博客"
@@ -456,16 +456,18 @@
 
     <footer class="site-footer">
     <section class="copyright">
-        &copy; 
+        &copy;
         
-            2025 - 
+            2025 -
         
         2026 Julien
     </section>
-    
+
     <section class="powerby">
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.32.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+        
+
+        我一生向你问过一次路 <br />
+        Only once in my life did I ask you for the way.
     </section>
 </footer>
 
@@ -567,12 +569,13 @@
 	})	
 	
 	document.addEventListener('pjax:complete',() => {
-		window.stack.init();
+		if (window.Stack && typeof window.Stack.init === 'function') {
+			window.Stack.init();
+		}
 		topbar.hide();
 	})
 	
 </script>
-
 
 
 
@@ -786,7 +789,7 @@
 
 <style>
   body {
-    background: url(/background/boysinlove.png) no-repeat center top;
+    background: url(/background/diary-background-20260608.jpeg) no-repeat center top;
     background-size: cover;
     background-attachment: fixed;
   }
@@ -794,9 +797,9 @@
 
 <div id="particles-js"></div>
 
-<script src=https://julien0129.github.io/background/particles.min.js></script>
+<script src="/background/particles.min.js"></script>
 <script>
-  particlesJS.load('particles-js', "https://julien0129.github.io/background/particlesjs-config.json", function() {
+  particlesJS.load('particles-js', "\/background\/particlesjs-config.json?v=20260609-circle-grab", function() {
     console.log('particles.js loaded - callback');
   });
 </script>
