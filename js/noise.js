@@ -7,7 +7,10 @@
   if (window.__spiritNoise) return;
   window.__spiritNoise = true;
 
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('noise') === '0') return;
+  var still = params.get('still') === '1';
+  var reduced = still || (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   var canvas = document.createElement('canvas');
   canvas.id = 'bg-noise';
   canvas.setAttribute('aria-hidden', 'true');
