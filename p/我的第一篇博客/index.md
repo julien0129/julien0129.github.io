@@ -1,8 +1,9 @@
 ---
 title: 我的第一篇博客
+subtitle: My Spirit Room
 date: 2025-12-20
 slug: 我的第一篇博客
-subtitle: My Spirit Room
+image: default.jpg
 categories: ["随笔"]
 ---
 
